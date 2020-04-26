@@ -1,0 +1,23 @@
+{
+  "name": "note-api",
+  "version": "1.0.0",
+  "description": "Basic RESTful API for note-manager",
+  "keywords": [
+    "restful",
+    "api",
+    "json"
+  ],
+  "author": {
+    "name": "Aydin Ghane Kh.",
+    "email": "aydin.ghane.kh@gmail.com",
+    "url": "http://iding.ir"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3001 -w db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
